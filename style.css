@@ -6,7 +6,13 @@
 }
 
 body {
-    background-color: grey;
+    background-color: #f6f8f9;
+}
+h1 {
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 10px;
+    margin-bottom: 1px;
 }
 
 /* commons */
@@ -14,7 +20,12 @@ body {
     background-color: white;
     padding-left: 40px;
     padding-top: 10px;
+    margin-bottom: 1px;
+    }
+.bg-white-second {
+    padding-bottom: 30px;
 }
+
 
 .position {
     text-align: center;
@@ -24,6 +35,7 @@ body {
 main {
     margin-top: 50px;
     margin-left: 200px;
+    margin-right: 200px;
 }
 
 /* fine main */
@@ -37,6 +49,7 @@ main {
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
+    margin-bottom: 10px;
     }
 .bottom-white {
     color: grey;
@@ -51,9 +64,50 @@ main {
 /* fine primo div */
 
 /*inizio secondo div*/
-.pd-div {
-    padding-top: 30px;
+h4 {
+    margin-top: 30px;
+    margin-left: 10px;
+} 
+.pd-li {
+    margin: 10px;
+    list-style-type: none
 }
-.pd-li {padding-top: 15px;}
+.circle {
+    border-radius: 50%;
+    border: 1px solid
+    
+}
+.circle-right {
+    color: #2cc6ab;
+    border-color:#2cc6ab;
+}
+.circle-wrong {
+    color: #ff0001;
+    border-color:#ff0001;
+}
+.label {
+    font-size: x-small;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
 
+}
+.label-blue {
+    background-color: #0aa9ed;
+}
+.label-violet {
+    background-color: #ab5de6;
+}
+.label-green-b {
+    background-color: #2cc6ab;
+}
+.label-orange {
+    background-color: #ff9b00;
+}
+.label-pink {
+    background-color: #ec4a9d;
+}
+.label-green-w {
+    background-color: #a3d117;
+}
 /*fine secondo div*/
