@@ -1,14 +1,32 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: arial;
-    background-color: #f6f8f9;
+    background-color: grey;
 
 }
 
 /* commons */
 .bg-white {
     background-color: white;
-
-    
 }
+.position {
+    text-align: center;
+} 
+
+/* inizio main */
+main {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+/* fine main */
+
+/*inizio secondo div*/
+.pd-div {
+    padding-top: 30px;
+}
+.pd-li {padding-top: 15px;}
+
+/*fine secondo div*/
